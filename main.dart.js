@@ -40218,9 +40218,9 @@ $S:0}
 A.ahS.prototype={
 $2(a,b){var s,r=null
 if(b.a===B.cU){s=b.b
-if(s!=null){s=s.a
-s=s==null?r:s.length
-return A.lO(new A.ahQ(b),s,new A.i6(r),B.R,!0)}}return A.hI(A.vg(),r,r)},
+if(s==null)s=0
+else{s=s.a
+s=s==null?r:s.length}return A.lO(new A.ahQ(b),s,new A.i6(r),B.R,!0)}return A.hI(A.vg(),r,r)},
 $S:62}
 A.ahQ.prototype={
 $2(a,b){var s,r,q=null,p=this.a,o=p.b,n=o==null,m=n?q:o.a[b].f,l=n?q:o.a[b].y
